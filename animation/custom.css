@@ -16,14 +16,26 @@ body {
   grid-template-columns: repeat(5, 30px);
 }
 
-.array-9 {
-  grid-template-columns: repeat(9, 30px);
+.array-6 {
+  grid-template-columns: 50px repeat(5, 30px);
+}
+
+.array-11 {
+  grid-template-columns: repeat(11, 30px);
 }
 
 .elem {
-  display:flex;
+  display: flex;
   height: 30px;
   width: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.elem-wide {
+  display: flex;
+  height: 30px;
+  width: 50px;
   justify-content: center;
   align-items: center;
 }
