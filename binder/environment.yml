@@ -1,0 +1,9 @@
+name: taco-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - random

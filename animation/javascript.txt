@@ -1,0 +1,7 @@
+function mouse(array_names, file_id, this_id, hover, color) {
+    for (var i = 0; i < hover.length; i++) {
+        var id = hover[i];
+        document.getElementById(this_id).style.background = color;
+        document.getElementById(file_id + array_names[i] + id).style.background = color;
+    }
+}
