@@ -5,6 +5,3 @@ dependencies:
   - python
   - numpy
   - scipy
-  - pip
-  - pip:
-    - random
