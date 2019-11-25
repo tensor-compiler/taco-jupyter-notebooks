@@ -1,6 +1,4 @@
 name: taco-environment
-channels:
-  - conda-forge
 dependencies:
   - python
   - numpy
