@@ -1,0 +1,3 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tensor-compiler/taco-jupyter-notebooks/master)
+
+The Jupyter notebooks in this repository proivde an interactive introduction to the Python TACO library, including how to initialize tensors, define mode formats, and perform computations. There are three notebooks, which differ mainly in the final extended example: SpMV (useful for scientific computing), SDDMM (machine learning), and MTTKRP (data analytics).
