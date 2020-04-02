@@ -9,9 +9,9 @@ values = [('vals', 'vals', [6, 5, 9, 8, 7])]
 
 array_names = ['pos_1', 'pos_1', 'idx_1', 'vals']
 instructions = {'a00': [0, 1, 0, 0],
-                'a02': [0, 1, 1, 1],
-                'a03': [2, 3, 2, 2], 
-                'a20': [3, 4, 3, 3],
+                'a20': [0, 1, 1, 1],
+                'a02': [2, 3, 2, 2], 
+                'a03': [3, 4, 3, 3],
                 'a23': [3, 4, 4, 4]}
 
 animation.display_animation('3', data_matrix, [data_columns, data_rows, values], array_names, instructions)
