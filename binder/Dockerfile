@@ -35,4 +35,5 @@ RUN cd taco && \
 	cmake -DCMAKE_BUILD_TYPE=Release -DPYTHON=ON .. && \
 	make -j8
 
-ENV PYTHONPATH "${PYTHONPATH}:taco/python_bindings"
+ENV PYTHONPATH "${PYTHONPATH}:taco/build/lib"
+
