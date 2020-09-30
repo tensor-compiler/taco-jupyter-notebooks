@@ -28,7 +28,7 @@ USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 
-RUN git clone https://github.com/tensor-compiler/taco.git -b second-taco
+RUN git clone https://github.com/tensor-compiler/taco.git
 RUN cd taco && \
 	mkdir build && \
 	cd build && \
